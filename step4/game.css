@@ -1,0 +1,99 @@
+html, body, header, footer, hgroup, nav, article, section,
+figure, figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+header{
+    background-color: #3f3622;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-image: url("cave-background.jpg");
+    background-color: black;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    text-align: right;
+    color: white;
+    padding: 0.2em;
+}
+
+nav a:link{
+    color: white;
+}
+
+nav a:visited{
+    color: gray;
+}
+
+nav a.style1{
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+a:link {
+    color: #3f3622;
+}
+
+a:visited {
+    color: #3f3622;
+}
+
+h1{
+    font-size: 3em;
+    font-family: "Arial", sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0.2em;
+}
+
+div.game{
+    background-color: white;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+}
+
+div.topImg img{
+    border: 1px black solid;
+    padding: 0.5em;
+    margin: 1em;
+    width: auto;
+    height: auto;
+}
+
+div.textBelowImg{
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+div.room {
+    width: 200px;
+    display: inline-block;
+}
+
+div.rooms{
+    margin-bottom: 1em;
+}
+
+div.instructionText{
+    text-align: left;
+    padding: 0 1em 0 1em;
+}
+
+div.instructionText p{
+    margin-bottom: 1.5em;
+    font-family: "Times New Roman";
+    line-height: 1.2em;
+}
